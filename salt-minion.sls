@@ -14,6 +14,7 @@ salt-minion-py3:
   # The uninstaller will be in ProgramData\Salt Project\Salt
   {%
       for version in [
+          '3006.1',
           '3005.1-3',
           '3005.1-2',
           '3005.1-1',
